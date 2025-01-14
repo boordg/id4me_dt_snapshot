@@ -5,7 +5,7 @@
     target_schema='snapshots',      
     strategy='check',      
     unique_key='user_id',      
-    check_cols=['financial_expiry']    
+    check_cols=['financial_expiry', 'subscription_status', 'subscription_type', 'subscription_plan']    
   )  
 }}  
 
